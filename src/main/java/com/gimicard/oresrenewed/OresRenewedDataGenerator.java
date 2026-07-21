@@ -9,7 +9,7 @@ public class OresRenewedDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
-		// Registriert deinen Modell-Provider für Block- und Item-Modelle
+
 		pack.addProvider(ModModelProvider::new);
 	}
 }
