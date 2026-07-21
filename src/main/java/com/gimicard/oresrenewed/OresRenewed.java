@@ -1,6 +1,8 @@
 package com.gimicard.oresrenewed;
 
+import com.gimicard.oresrenewed.item.ModItems;
 import com.gimicard.oresrenewed.block.ModBlocks;
+import com.gimicard.oresrenewed.creativemodetab.ModCreativeModeTabs;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -15,6 +17,8 @@ public class OresRenewed implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModBlocks.registerBlocks();
+		ModCreativeModeTabs.registerModCreativeTabs();
+		ModItems.registerItems();
 
 	}
 

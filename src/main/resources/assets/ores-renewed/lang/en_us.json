@@ -1,3 +1,7 @@
 {
-  "block.ores-renewed.uran_ore_block": "Uranore Block"
+  "block.ores-renewed.uran_ore_block": "Uranore Block",
+
+  "creativemodetab.oresrenewed.Ores": "Ores",
+
+  "item.ores-renewed.raw_uran": "Raw Uran"
 }
