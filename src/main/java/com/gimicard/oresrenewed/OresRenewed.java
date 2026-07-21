@@ -16,9 +16,10 @@ public class OresRenewed implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerItems();
 		ModBlocks.registerBlocks();
 		ModCreativeModeTabs.registerModCreativeTabs();
-		ModItems.registerItems();
+
 
 	}
 

@@ -21,8 +21,15 @@ public class ModCreativeModeTabs {
                     //.backgroundTexture(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "textures/item/fluorite.png"))         custon background
                     .title(Component.translatable("creativemodetab.oresrenewed.Ores"))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModBlocks.URAN_ORE_BLOCK);
                         output.accept(ModItems.RAW_URAN);
+                        output.accept(ModBlocks.TITAN_ORE_BLOCK);
+                        output.accept(ModBlocks.SCHATTENKRISTALL_ORE_BLOCK);
+                        output.accept(ModBlocks.VULKANIT_ORE_BLOCK);
+                        output.accept(ModBlocks.MAGNETITE_ORE_BLOCK);
+                        output.accept(ModBlocks.KILLIUM_ORE_BLOCK);
+                        output.accept(ModBlocks.LEAD_ORE_BLOCK);
+                        output.accept(ModBlocks.RUBY_ORE_BLOCK);
+                        output.accept(ModBlocks.URAN_ORE_BLOCK);
                     }).build());
 
 

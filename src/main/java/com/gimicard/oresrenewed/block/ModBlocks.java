@@ -16,7 +16,36 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import java.util.function.Function;
 
 public class ModBlocks {
+
     public static final Block URAN_ORE_BLOCK = registerBlock("uran_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block TITAN_ORE_BLOCK = registerBlock("titan_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block RUBY_ORE_BLOCK = registerBlock("ruby_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block LEAD_ORE_BLOCK = registerBlock("lead_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block KILLIUM_ORE_BLOCK = registerBlock("killium_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block MAGNETITE_ORE_BLOCK = registerBlock("magnetite_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block VULKANIT_ORE_BLOCK = registerBlock("vulkanit_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block SCHATTENKRISTALL_ORE_BLOCK = registerBlock("schattenkristall_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
 
