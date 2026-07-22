@@ -45,41 +45,41 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
-    public static final Block SCHATTENKRISTALL_ORE_BLOCK = registerBlock("schattenkristall_ore_block",
+    public static final Block BLACKCRISTAL_ORE_BLOCK = registerBlock("blackcristal_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
 
-    public static final Block D_URAN_ORE_BLOCK = registerBlock("d_uran_ore_block",
+    public static final Block DEEPSLATE_URAN_ORE_BLOCK = registerBlock("deepslate_uran_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final Block D_TITAN_ORE_BLOCK = registerBlock("d_titan_ore_block",
+    public static final Block DEEPSLATE_TITAN_ORE_BLOCK = registerBlock("deepslate_titan_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final Block D_RUBY_ORE_BLOCK = registerBlock("d_ruby_ore_block",
+    public static final Block DEEPSLATE_RUBY_ORE_BLOCK = registerBlock("deepslate_ruby_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final Block D_LEAD_ORE_BLOCK = registerBlock("d_lead_ore_block",
+    public static final Block DEEPSLATE_LEAD_ORE_BLOCK = registerBlock("deepslate_lead_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final Block D_KILLIUM_ORE_BLOCK = registerBlock("d_killium_ore_block",
+    public static final Block DEEPSLATE_KILLIUM_ORE_BLOCK = registerBlock("deepslate_killium_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final Block D_MAGNETITE_ORE_BLOCK = registerBlock("d_magnetite_ore_block",
+    public static final Block DEEPSLATE_MAGNETITE_ORE_BLOCK = registerBlock("deepslate_magnetite_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final Block D_VULKANIT_ORE_BLOCK = registerBlock("d_vulkanit_ore_block",
+    public static final Block DEEPSLATE_VULKANIT_ORE_BLOCK = registerBlock("deepslate_vulkanit_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final Block D_SCHATTENKRISTALL_ORE_BLOCK = registerBlock("d_schattenkristall_ore_block",
+    public static final Block DEEPSLATE_BLACKCRISTAL_ORE_BLOCK = registerBlock("deepslate_blackcristal_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
