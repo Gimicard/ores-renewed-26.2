@@ -7,6 +7,14 @@
   "block.ores-renewed.magnetite_ore_block": "Magnetite Ore",
   "block.ores-renewed.vulkanit_ore_block": "Vulkanit Ore",
   "block.ores-renewed.schattenkristall_ore_block": "Blackkristall Ore",
+  "block.ores-renewed.d_uran_ore_block": "Deepslate Uran Ore",
+  "block.ores-renewed.d_titan_ore_block": "Deepslate Titan Ore",
+  "block.ores-renewed.d_ruby_ore_block": "Deepslate Ruby Ore",
+  "block.ores-renewed.d_lead_ore_block": "Deepslate Lead Ore",
+  "block.ores-renewed.d_killium_ore_block": "Deepslate Killium Ore",
+  "block.ores-renewed.d_magnetite_ore_block": "Deepslate Magnetite Ore",
+  "block.ores-renewed.d_vulkanit_ore_block": "Deepslate Vulkanit Ore",
+  "block.ores-renewed.d_schattenkristall_ore_block": "Deepslate Blackkristall Ore",
 
   "creativemodetab.oresrenewed.Ores": "Ores renewed",
 
