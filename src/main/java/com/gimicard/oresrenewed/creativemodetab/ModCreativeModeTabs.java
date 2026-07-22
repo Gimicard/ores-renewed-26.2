@@ -30,6 +30,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LEAD_ORE_BLOCK);
                         output.accept(ModBlocks.RUBY_ORE_BLOCK);
                         output.accept(ModBlocks.URAN_ORE_BLOCK);
+                        output.accept(ModBlocks.D_TITAN_ORE_BLOCK);
+                        output.accept(ModBlocks.D_SCHATTENKRISTALL_ORE_BLOCK);
+                        output.accept(ModBlocks.D_VULKANIT_ORE_BLOCK);
+                        output.accept(ModBlocks.D_MAGNETITE_ORE_BLOCK);
+                        output.accept(ModBlocks.D_KILLIUM_ORE_BLOCK);
+                        output.accept(ModBlocks.D_LEAD_ORE_BLOCK);
+                        output.accept(ModBlocks.D_RUBY_ORE_BLOCK);
+                        output.accept(ModBlocks.D_URAN_ORE_BLOCK);
                     }).build());
 
 

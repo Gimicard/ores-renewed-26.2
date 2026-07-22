@@ -50,6 +50,40 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
 
 
+
+    public static final Block D_URAN_ORE_BLOCK = registerBlock("d_uran_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block D_TITAN_ORE_BLOCK = registerBlock("d_titan_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block D_RUBY_ORE_BLOCK = registerBlock("d_ruby_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block D_LEAD_ORE_BLOCK = registerBlock("d_lead_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block D_KILLIUM_ORE_BLOCK = registerBlock("d_killium_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block D_MAGNETITE_ORE_BLOCK = registerBlock("d_magnetite_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block D_VULKANIT_ORE_BLOCK = registerBlock("d_vulkanit_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+    public static final Block D_SCHATTENKRISTALL_ORE_BLOCK = registerBlock("d_schattenkristall_ore_block",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.ANVIL)));
+
+
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> funktion) {
         Block toRegister = funktion.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(OresRenewed.MOD_ID, name))));
         Block registeredBlock = Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(OresRenewed.MOD_ID, name), toRegister);
