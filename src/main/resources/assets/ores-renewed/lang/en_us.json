@@ -1,7 +1,14 @@
 {
   "block.ores-renewed.uran_ore_block": "Uranore Block",
+  "block.ores-renewed.titan_ore_block": "Titanore Block",
+  "block.ores-renewed.ruby_ore_block": "Rubyore Block",
+  "block.ores-renewed.lead_ore_block": "Leadore Block",
+  "block.ores-renewed.killium_ore_block": "Killiumore Block",
+  "block.ores-renewed.magnetite_ore_block": "Magnetiteore Block",
+  "block.ores-renewed.vulkanit_ore_block": "Vulkanitore Block",
+  "block.ores-renewed.schattenkristall_ore_block": "Blackkristall Ore",
 
-  "creativemodetab.oresrenewed.Ores": "Ores",
+  "creativemodetab.oresrenewed.Ores": "Ores renewed",
 
   "item.ores-renewed.raw_uran": "Raw Uran"
 }
