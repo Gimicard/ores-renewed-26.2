@@ -17,11 +17,14 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
     protected void addTags(HolderLookup.Provider registries) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.getRK(ModBlocks.URAN_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK));
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK))
+                        .add(ModBlocks.getRK(ModBlocks.BLACKCRISTAL_ORE_BLOCK));
+
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.getRK(ModBlocks.URAN_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK));
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK))
+                .add(ModBlocks.getRK(ModBlocks.BLACKCRISTAL_ORE_BLOCK));
 
     }
 }
