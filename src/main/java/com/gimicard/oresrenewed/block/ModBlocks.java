@@ -84,6 +84,10 @@ public class ModBlocks {
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
 
+    public static ResourceKey<Block> getRK(Block block){
+        return BuiltInRegistries.BLOCK.getResourceKey(block).get();
+    }
+
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> funktion) {
         Block toRegister = funktion.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(OresRenewed.MOD_ID, name))));
         Block registeredBlock = Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(OresRenewed.MOD_ID, name), toRegister);
