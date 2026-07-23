@@ -18,5 +18,12 @@
 
   "creativemodetab.oresrenewed.Ores": "Ores renewed",
 
-  "item.ores-renewed.raw_uran": "Raw Uran"
+  "item.ores-renewed.raw_uran": "Raw Uran",
+  "item.ores-renewed.blackcristal": "Blackcristal",
+  "item.ores-renewed.raw_killium": "Raw Killium",
+  "item.ores-renewed.raw_lead": "Raw Lead",
+  "item.ores-renewed.raw_magnetit": "Raw Magnetit",
+  "item.ores-renewed.raw_titan": "Raw Titan",
+  "item.ores-renewed.raw_vulkanit": "Raw Vulkanit",
+  "item.ores-renewed.ruby": "Ruby"
 }
