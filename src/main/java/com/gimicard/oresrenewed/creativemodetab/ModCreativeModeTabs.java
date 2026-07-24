@@ -44,6 +44,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.LEAD_ORE_BLOCK);
                         output.accept(ModBlocks.RUBY_ORE_BLOCK);
                         output.accept(ModBlocks.URAN_ORE_BLOCK);
+
                         output.accept(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK);
@@ -52,6 +53,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK);
+
+                        output.accept(ModBlocks.BLOCK_OF_TITAN);
+                        output.accept(ModBlocks.BLOCK_OF_BLACKCRISTAL);
+                        output.accept(ModBlocks.BLOCK_OF_VULKANIT);
+                        output.accept(ModBlocks.BLOCK_OF_MAGNETIT);
+                        output.accept(ModBlocks.BLOCK_OF_KILLIUM);
+                        output.accept(ModBlocks.BLOCK_OF_LEAD);
+                        output.accept(ModBlocks.BLOCK_OF_RUBY);
+                        output.accept(ModBlocks.BLOCK_OF_URAN);
                     }).build());
 
 

@@ -35,6 +35,16 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK);
 
+        blockStateModelGenerator.createTrivialCube(ModBlocks.BLOCK_OF_BLACKCRISTAL);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.BLOCK_OF_VULKANIT);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.BLOCK_OF_MAGNETIT);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.BLOCK_OF_KILLIUM);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.BLOCK_OF_LEAD);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.BLOCK_OF_RUBY);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.BLOCK_OF_URAN);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.BLOCK_OF_TITAN);
+
+
     }
 
     @Override

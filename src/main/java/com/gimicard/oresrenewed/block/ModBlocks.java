@@ -83,6 +83,38 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
+    public static final Block BLOCK_OF_BLACKCRISTAL  = registerBlock("block_of_blackcristal",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final Block BLOCK_OF_KILLIUM = registerBlock("block_of_killium",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final Block BLOCK_OF_LEAD = registerBlock("block_of_lead",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final Block BLOCK_OF_MAGNETIT = registerBlock("block_of_magnetit",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final Block BLOCK_OF_RUBY = registerBlock("block_of_ruby",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final Block BLOCK_OF_TITAN = registerBlock("block_of_titan",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final Block BLOCK_OF_URAN = registerBlock("block_of_uran",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final Block BLOCK_OF_VULKANIT = registerBlock("block_of_vulkanit",
+            properties -> new Block(properties.strength(4F)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
 
     public static ResourceKey<Block> getRK(Block block){
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();

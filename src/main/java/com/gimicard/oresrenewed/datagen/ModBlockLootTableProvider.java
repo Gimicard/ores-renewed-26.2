@@ -26,6 +26,15 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
     @Override
     public void generate() {
 
+        dropSelf(ModBlocks.BLOCK_OF_BLACKCRISTAL);
+        dropSelf(ModBlocks.BLOCK_OF_KILLIUM);
+        dropSelf(ModBlocks.BLOCK_OF_LEAD);
+        dropSelf(ModBlocks.BLOCK_OF_MAGNETIT);
+        dropSelf(ModBlocks.BLOCK_OF_RUBY);
+        dropSelf(ModBlocks.BLOCK_OF_TITAN);
+        dropSelf(ModBlocks.BLOCK_OF_URAN);
+        dropSelf(ModBlocks.BLOCK_OF_VULKANIT);
+
         add(ModBlocks.BLACKCRISTAL_ORE_BLOCK, createMultipleOreDrops(ModBlocks.BLACKCRISTAL_ORE_BLOCK, ModItems.BLACKCRISTAL, 2,6));
         add(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK, createMultipleOreDrops(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK, ModItems.BLACKCRISTAL, 1,7));
         add(ModBlocks.KILLIUM_ORE_BLOCK, createMultipleOreDrops(ModBlocks.KILLIUM_ORE_BLOCK, ModItems.RAW_KILLIUM, 1,3));

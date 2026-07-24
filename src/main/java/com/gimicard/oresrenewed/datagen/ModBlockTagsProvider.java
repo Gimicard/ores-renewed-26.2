@@ -33,7 +33,16 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK));
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK))
+
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_BLACKCRISTAL))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_KILLIUM))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_LEAD))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_MAGNETIT))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_RUBY))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_TITAN))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_URAN))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_VULKANIT));
 
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
@@ -42,18 +51,28 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.TITAN_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.VULKANIT_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK));
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK))
+
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_RUBY))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_TITAN))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_VULKANIT));
 
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.getRK(ModBlocks.BLACKCRISTAL_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.MAGNETITE_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK));
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK))
+
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_BLACKCRISTAL))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_MAGNETIT));
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.getRK(ModBlocks.KILLIUM_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_KILLIUM_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.LEAD_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK));
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK))
+
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_KILLIUM))
+                .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_LEAD));
     }
 }
