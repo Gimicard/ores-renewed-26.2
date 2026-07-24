@@ -25,10 +25,25 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
 
     @Override
     public void generate() {
-        dropSelf(ModBlocks.URAN_ORE_BLOCK);
 
+        add(ModBlocks.BLACKCRISTAL_ORE_BLOCK, createMultipleOreDrops(ModBlocks.BLACKCRISTAL_ORE_BLOCK, ModItems.BLACKCRISTAL, 2,6));
+        add(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK, createMultipleOreDrops(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK, ModItems.BLACKCRISTAL, 1,7));
+        add(ModBlocks.KILLIUM_ORE_BLOCK, createMultipleOreDrops(ModBlocks.KILLIUM_ORE_BLOCK, ModItems.RAW_KILLIUM, 1,3));
+        add(ModBlocks.DEEPSLATE_KILLIUM_ORE_BLOCK, createMultipleOreDrops(ModBlocks.DEEPSLATE_KILLIUM_ORE_BLOCK, ModItems.RAW_KILLIUM, 1,4));
+        add(ModBlocks.LEAD_ORE_BLOCK, createMultipleOreDrops(ModBlocks.LEAD_ORE_BLOCK, ModItems.RAW_LEAD, 3,5));
+        add(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK, createMultipleOreDrops(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK, ModItems.RAW_LEAD, 2,6));
+        add(ModBlocks.TITAN_ORE_BLOCK, createMultipleOreDrops(ModBlocks.TITAN_ORE_BLOCK, ModItems.RAW_TITAN, 2,3));
+        add(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK, createMultipleOreDrops(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK, ModItems.RAW_TITAN, 1,4));
+
+
+        add(ModBlocks.MAGNETITE_ORE_BLOCK, createOreDrop(ModBlocks.MAGNETITE_ORE_BLOCK, ModItems.RAW_MAGNETIT));
+        add(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK, ModItems.RAW_MAGNETIT));
+        add(ModBlocks.RUBY_ORE_BLOCK, createOreDrop(ModBlocks.RUBY_ORE_BLOCK, ModItems.RUBY));
+        add(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK, ModItems.RUBY));
+        add(ModBlocks.URAN_ORE_BLOCK, createOreDrop(ModBlocks.URAN_ORE_BLOCK, ModItems.RAW_URAN));
         add(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK, ModItems.RAW_URAN));
-        add(ModBlocks.BLACKCRISTAL_ORE_BLOCK, createMultipleOreDrops(ModBlocks.BLACKCRISTAL_ORE_BLOCK, ModItems.BLACKCRISTAL, 3,6));
+        add(ModBlocks.VULKANIT_ORE_BLOCK, createOreDrop(ModBlocks.VULKANIT_ORE_BLOCK, ModItems.RAW_VULKANIT));
+        add(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK, ModItems.RAW_VULKANIT));
     }
 
 
