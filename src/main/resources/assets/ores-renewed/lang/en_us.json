@@ -25,5 +25,12 @@
   "item.ores-renewed.raw_magnetit": "Raw Magnetit",
   "item.ores-renewed.raw_titan": "Raw Titan",
   "item.ores-renewed.raw_vulkanit": "Raw Vulkanit",
-  "item.ores-renewed.ruby": "Ruby"
+
+  "item.ores-renewed.uran_ingot": "Uran Ingot",
+  "item.ores-renewed.killium_ingot": "Killium Ingot",
+  "item.ores-renewed.lead_ingot": "Lead Ingot",
+  "item.ores-renewed.magnetit_ingot": "Magnetit Ingot",
+  "item.ores-renewed.titan_ingot": "Titan Ingot",
+  "item.ores-renewed.vulkanit_ingot": "Vulkanit Ingot",
+  "item.ores-renewed.ruby": "Ruby Ingot"
 }

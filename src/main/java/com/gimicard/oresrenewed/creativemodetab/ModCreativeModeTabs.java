@@ -27,6 +27,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_MAGNETIT);
                         output.accept(ModItems.RAW_KILLIUM);
                         output.accept(ModItems.RAW_LEAD);
+                        output.accept(ModItems.URAN_INGOT);
+                        output.accept(ModItems.TITAN_INGOT);
+                        output.accept(ModItems.VULKANIT_INGOT);
+                        output.accept(ModItems.MAGNETIT_INGOT);
+                        output.accept(ModItems.KILLIUM_INGOT);
+                        output.accept(ModItems.LEAD_INGOT);
                         output.accept(ModItems.RUBY);
                         output.accept(ModItems.BLACKCRISTAL);
 

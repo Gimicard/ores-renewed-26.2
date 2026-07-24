@@ -47,6 +47,12 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.generateFlatItem(ModItems.RAW_MAGNETIT, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.RAW_KILLIUM, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.RAW_LEAD, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.URAN_INGOT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.TITAN_INGOT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.VULKANIT_INGOT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.MAGNETIT_INGOT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.KILLIUM_INGOT, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.LEAD_INGOT, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.RUBY, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.BLACKCRISTAL, ModelTemplates.FLAT_ITEM);
     }

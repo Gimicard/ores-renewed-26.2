@@ -19,6 +19,13 @@ public class ModItems {
     public static final Item RAW_KILLIUM = registerItem("raw_killium", Item::new);
     public static final Item RAW_LEAD = registerItem("raw_lead", Item::new);
 
+    public static final Item URAN_INGOT = registerItem("uran_ingot", Item::new);
+    public static final Item TITAN_INGOT = registerItem("titan_ingot", Item::new);
+    public static final Item VULKANIT_INGOT = registerItem("vulkanit_ingot", Item::new);
+    public static final Item MAGNETIT_INGOT = registerItem("magnetit_ingot", Item::new);
+    public static final Item KILLIUM_INGOT = registerItem("killium_ingot", Item::new);
+    public static final Item LEAD_INGOT = registerItem("lead_ingot", Item::new);
+
     public static final Item RUBY = registerItem("ruby", Item::new);
     public static final Item BLACKCRISTAL = registerItem("blackcristal", Item::new);
 
