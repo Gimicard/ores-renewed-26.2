@@ -3,6 +3,7 @@ package com.gimicard.oresrenewed;
 import com.gimicard.oresrenewed.item.ModItems;
 import com.gimicard.oresrenewed.block.ModBlocks;
 import com.gimicard.oresrenewed.creativemodetab.ModCreativeModeTabs;
+import com.gimicard.oresrenewed.item.ModKilliumRadiation;
 import com.gimicard.oresrenewed.worldgen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class OresRenewed implements ModInitializer {
 		ModBlocks.registerBlocks();
 		ModCreativeModeTabs.registerModCreativeTabs();
 		ModWorldGeneration.generateOres();
+		ModKilliumRadiation.register();
 
 
 	}
