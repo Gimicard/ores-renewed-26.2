@@ -4,7 +4,7 @@
   "block.ores-renewed.ruby_ore_block": "Ruby Ore",
   "block.ores-renewed.lead_ore_block": "Lead Ore",
   "block.ores-renewed.killium_ore_block": "Killium Ore",
-  "block.ores-renewed.magnetite_ore_block": "Magnetite Ore",
+  "block.ores-renewed.magnetit_ore_block": "Magnetit Ore",
   "block.ores-renewed.vulkanit_ore_block": "Vulkanit Ore",
   "block.ores-renewed.blackcristal_ore_block": "Blackcristal Ore",
 
@@ -13,7 +13,7 @@
   "block.ores-renewed.deepslate_ruby_ore_block": "Deepslate Ruby Ore",
   "block.ores-renewed.deepslate_lead_ore_block": "Deepslate Lead Ore",
   "block.ores-renewed.deepslate_killium_ore_block": "Deepslate Killium Ore",
-  "block.ores-renewed.deepslate_magnetite_ore_block": "Deepslate Magnetite Ore",
+  "block.ores-renewed.deepslate_magnetit_ore_block": "Deepslate Magnetit Ore",
   "block.ores-renewed.deepslate_vulkanit_ore_block": "Deepslate Vulkanit Ore",
   "block.ores-renewed.deepslate_blackcristal_ore_block": "Deepslate Blackcristal Ore",
 
@@ -23,7 +23,7 @@
   "block.ores-renewed.block_of_ruby": "Block of Ruby",
   "block.ores-renewed.block_of_lead": "Block of Lead",
   "block.ores-renewed.block_of_killium": "Block of Killium",
-  "block.ores-renewed.block_of_magnetite": "Block of Magnetite",
+  "block.ores-renewed.block_of_magnetit": "Block of Magnetit",
   "block.ores-renewed.block_of_vulkanit": "Block of Vulkanit",
 
   "creativemodetab.oresrenewed.Ores": "Ores renewed",

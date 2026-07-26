@@ -20,7 +20,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.BLACKCRISTAL_ORE_BLOCK)) //iron 2-5
                 .add(ModBlocks.getRK(ModBlocks.KILLIUM_ORE_BLOCK)) //stein 1-3
                 .add(ModBlocks.getRK(ModBlocks.LEAD_ORE_BLOCK)) //stein 3-5
-                .add(ModBlocks.getRK(ModBlocks.MAGNETITE_ORE_BLOCK)) //iron 1
+                .add(ModBlocks.getRK(ModBlocks.MAGNETIT_ORE_BLOCK)) //iron 1
                 .add(ModBlocks.getRK(ModBlocks.RUBY_ORE_BLOCK)) //dia 1
                 .add(ModBlocks.getRK(ModBlocks.TITAN_ORE_BLOCK)) //dia 2-3
                 .add(ModBlocks.getRK(ModBlocks.URAN_ORE_BLOCK)) //blei custom 1
@@ -29,7 +29,7 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_KILLIUM_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK))
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_MAGNETIT_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK))
@@ -60,8 +60,8 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.getRK(ModBlocks.BLACKCRISTAL_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.MAGNETITE_ORE_BLOCK))
-                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK))
+                .add(ModBlocks.getRK(ModBlocks.MAGNETIT_ORE_BLOCK))
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_MAGNETIT_ORE_BLOCK))
 
                 .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_BLACKCRISTAL))
                 .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_MAGNETIT));

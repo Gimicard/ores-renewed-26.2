@@ -45,8 +45,8 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK, createMultipleOreDrops(ModBlocks.DEEPSLATE_TITAN_ORE_BLOCK, ModItems.RAW_TITAN, 1,4));
 
 
-        add(ModBlocks.MAGNETITE_ORE_BLOCK, createOreDrop(ModBlocks.MAGNETITE_ORE_BLOCK, ModItems.RAW_MAGNETIT));
-        add(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK, ModItems.RAW_MAGNETIT));
+        add(ModBlocks.MAGNETIT_ORE_BLOCK, createOreDrop(ModBlocks.MAGNETIT_ORE_BLOCK, ModItems.RAW_MAGNETIT));
+        add(ModBlocks.DEEPSLATE_MAGNETIT_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_MAGNETIT_ORE_BLOCK, ModItems.RAW_MAGNETIT));
         add(ModBlocks.RUBY_ORE_BLOCK, createOreDrop(ModBlocks.RUBY_ORE_BLOCK, ModItems.RUBY));
         add(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK, ModItems.RUBY));
         add(ModBlocks.URAN_ORE_BLOCK, createOreDrop(ModBlocks.URAN_ORE_BLOCK, ModItems.RAW_URAN));

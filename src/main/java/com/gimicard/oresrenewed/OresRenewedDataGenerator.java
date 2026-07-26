@@ -1,11 +1,12 @@
 package com.gimicard.oresrenewed;
 
-import com.gimicard.oresrenewed.datagen.ModBlockLootTableProvider;
-import com.gimicard.oresrenewed.datagen.ModBlockTagsProvider;
-import com.gimicard.oresrenewed.datagen.ModModelProvider;
-import com.gimicard.oresrenewed.datagen.ModRecipeProvider;
+import com.gimicard.oresrenewed.datagen.*;
+import com.gimicard.oresrenewed.worldgen.ModConfiguredFeatures;
+import com.gimicard.oresrenewed.worldgen.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.minecraft.core.RegistrySetBuilder;
+import net.minecraft.core.registries.Registries;
 
 public class OresRenewedDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -16,5 +17,12 @@ public class OresRenewedDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModWorldGenerator::new);
+	}
+
+	@Override
+	public void buildRegistry(RegistrySetBuilder registryBuilder) {
+		registryBuilder.add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
+		registryBuilder.add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap);
 	}
 }

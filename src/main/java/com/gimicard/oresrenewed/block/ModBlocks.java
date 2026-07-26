@@ -37,7 +37,7 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
-    public static final Block MAGNETITE_ORE_BLOCK = registerBlock("magnetite_ore_block",
+    public static final Block MAGNETIT_ORE_BLOCK = registerBlock("magnetit_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
@@ -71,7 +71,7 @@ public class ModBlocks {
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
-    public static final Block DEEPSLATE_MAGNETITE_ORE_BLOCK = registerBlock("deepslate_magnetite_ore_block",
+    public static final Block DEEPSLATE_MAGNETIT_ORE_BLOCK = registerBlock("deepslate_magnetite_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 

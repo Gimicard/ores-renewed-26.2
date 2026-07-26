@@ -19,7 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.createTrivialCube(ModBlocks.BLACKCRISTAL_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.VULKANIT_ORE_BLOCK);
-        blockStateModelGenerator.createTrivialCube(ModBlocks.MAGNETITE_ORE_BLOCK);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.MAGNETIT_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.KILLIUM_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.LEAD_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.RUBY_ORE_BLOCK);
@@ -28,7 +28,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_BLACKCRISTAL_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK);
-        blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK);
+        blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_MAGNETIT_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_KILLIUM_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK);
         blockStateModelGenerator.createTrivialCube(ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK);

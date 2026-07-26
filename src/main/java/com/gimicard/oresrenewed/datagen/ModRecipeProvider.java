@@ -33,7 +33,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 oreSmelting(LEAD_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModItems.LEAD_INGOT, 0.25f, 200, "lead");
                 oreBlasting(LEAD_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModItems.LEAD_INGOT, 0.25f, 100, "lead");
 
-                List<ItemLike> Magnetit_SMELTABLES = List.of(ModItems.RAW_MAGNETIT, ModBlocks.MAGNETITE_ORE_BLOCK ,ModBlocks.DEEPSLATE_MAGNETITE_ORE_BLOCK);
+                List<ItemLike> Magnetit_SMELTABLES = List.of(ModItems.RAW_MAGNETIT, ModBlocks.MAGNETIT_ORE_BLOCK ,ModBlocks.DEEPSLATE_MAGNETIT_ORE_BLOCK);
                 oreSmelting(Magnetit_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModItems.MAGNETIT_INGOT, 0.25f, 200, "magneit");
                 oreBlasting(Magnetit_SMELTABLES, RecipeCategory.MISC, CookingBookCategory.BLOCKS, ModItems.MAGNETIT_INGOT, 0.25f, 100, "magnetit");
 
