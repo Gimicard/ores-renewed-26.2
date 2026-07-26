@@ -81,10 +81,10 @@ public class ModConfiguredFeatures {
         // --- Uran ---
         context.register(URAN_ORE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(List.of(
                 OreConfiguration.target(stoneReplaceables, ModBlocks.URAN_ORE_BLOCK.defaultBlockState())
-        ), 2)));
+        ), 3)));
         context.register(URAN_ORE_DEEPSLATE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(List.of(
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_URAN_ORE_BLOCK.defaultBlockState())
-        ), 2)));
+        ), 3)));
 
         // --- Blackcristal ---
         context.register(BLACKCRISTAL_ORE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(List.of(
@@ -105,10 +105,10 @@ public class ModConfiguredFeatures {
         // --- Lead ---
         context.register(LEAD_ORE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(List.of(
                 OreConfiguration.target(stoneReplaceables, ModBlocks.LEAD_ORE_BLOCK.defaultBlockState())
-        ), 1)));
+        ), 3)));
         context.register(LEAD_ORE_DEEPSLATE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(List.of(
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_LEAD_ORE_BLOCK.defaultBlockState())
-        ), 1)));
+        ), 3)));
 
         // --- Magnetit ---
         context.register(MAGNETIT_ORE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(List.of(
@@ -129,9 +129,9 @@ public class ModConfiguredFeatures {
         // --- Ruby ---
         context.register(RUBY_ORE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(List.of(
                 OreConfiguration.target(stoneReplaceables, ModBlocks.RUBY_ORE_BLOCK.defaultBlockState())
-        ), 2)));
+        ), 3)));
         context.register(RUBY_ORE_DEEPSLATE_KEY, new ConfiguredFeature<>(Feature.ORE, new OreConfiguration(List.of(
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_RUBY_ORE_BLOCK.defaultBlockState())
-        ), 2)));
+        ), 3)));
     }
 }
