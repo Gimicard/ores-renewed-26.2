@@ -30,6 +30,11 @@
 
   "effect.ores-renewed.irradiated": "Irradiated",
 
+  "item.minecraft.potion.effect.irradiant_potion": "Irradiant Potion",
+  "item.minecraft.splash_potion.effect.irradiant_potion": "Irradiant Splashpotion",
+  "item.minecraft.lingering_potion.effect.irradiant_potion": "Irradiant Lingeringpotion",
+  "item.minecraft.tipped_arrow.effect.irradiant_potion": "Arrow of Irradiant",
+
   "item.ores-renewed.raw_uran": "Raw Uran",
   "item.ores-renewed.blackcristal": "Blackcristal",
   "item.ores-renewed.raw_killium": "Raw Killium",

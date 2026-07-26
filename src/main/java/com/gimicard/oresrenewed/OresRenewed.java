@@ -6,6 +6,8 @@ import com.gimicard.oresrenewed.block.ModBlocks;
 import com.gimicard.oresrenewed.creativemodetab.ModCreativeModeTabs;
 import com.gimicard.oresrenewed.item.ModKilliumRadiation;
 import com.gimicard.oresrenewed.item.ModUranRadiation;
+import com.gimicard.oresrenewed.potion.ModPotions;
+import com.gimicard.oresrenewed.registries.ModPotionRecipes;
 import com.gimicard.oresrenewed.worldgen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -27,7 +29,8 @@ public class OresRenewed implements ModInitializer {
 		ModKilliumRadiation.register();
 		ModUranRadiation.register();
 		ModEffect.registerEffects();
-
+		ModPotions.registerPotions();
+		ModPotionRecipes.registerPotionRecipes();
 
 	}
 

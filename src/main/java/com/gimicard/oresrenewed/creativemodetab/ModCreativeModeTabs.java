@@ -4,6 +4,7 @@ package com.gimicard.oresrenewed.creativemodetab;
 import com.gimicard.oresrenewed.item.ModItems;
 import com.gimicard.oresrenewed.OresRenewed;
 import com.gimicard.oresrenewed.block.ModBlocks;
+import com.gimicard.oresrenewed.potion.ModPotions;
 import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -11,6 +12,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.alchemy.PotionContents;
 
 public class ModCreativeModeTabs {
 
@@ -62,6 +65,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BLOCK_OF_LEAD);
                         output.accept(ModBlocks.BLOCK_OF_RUBY);
                         output.accept(ModBlocks.BLOCK_OF_URAN);
+
+                        output.accept(PotionContents.createItemStack(Items.POTION, ModPotions.IRRADIANT_POTION));
+                        output.accept(PotionContents.createItemStack(Items.SPLASH_POTION, ModPotions.IRRADIANT_POTION));
+                        output.accept(PotionContents.createItemStack(Items.LINGERING_POTION, ModPotions.IRRADIANT_POTION));
+                        output.accept(PotionContents.createItemStack(Items.TIPPED_ARROW, ModPotions.IRRADIANT_POTION));
+
+
                     }).build());
 
 
