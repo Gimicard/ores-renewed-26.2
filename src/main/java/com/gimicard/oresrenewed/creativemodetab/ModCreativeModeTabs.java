@@ -39,6 +39,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY);
                         output.accept(ModItems.BLACKCRISTAL);
 
+                        output.accept(ModItems.VULKANIT_SWORT);
+                        output.accept(ModItems.VULKANIT_PICKAXE);
+                        output.accept(ModItems.VULKANIT_SHOVEL);
+                        output.accept(ModItems.VULKANIT_AXE);
+                        output.accept(ModItems.VULKANIT_HOE);
+                        output.accept(ModItems.VULKANIT_SPEAR);
+
+                        output.accept(ModItems.LEAD_PICKAXE);
+
                         output.accept(ModBlocks.TITAN_ORE_BLOCK);
                         output.accept(ModBlocks.BLACKCRISTAL_ORE_BLOCK);
                         output.accept(ModBlocks.VULKANIT_ORE_BLOCK);
@@ -70,6 +79,8 @@ public class ModCreativeModeTabs {
                         output.accept(PotionContents.createItemStack(Items.SPLASH_POTION, ModPotions.IRRADIANT_POTION));
                         output.accept(PotionContents.createItemStack(Items.LINGERING_POTION, ModPotions.IRRADIANT_POTION));
                         output.accept(PotionContents.createItemStack(Items.TIPPED_ARROW, ModPotions.IRRADIANT_POTION));
+
+
 
 
                     }).build());

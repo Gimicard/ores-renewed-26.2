@@ -35,6 +35,16 @@
   "item.minecraft.lingering_potion.effect.irradiant_potion": "Irradiant Lingeringpotion",
   "item.minecraft.tipped_arrow.effect.irradiant_potion": "Arrow of Irradiant",
 
+  "item.ores-renewed.vulkanit_sword": "Vulkanit Swort",
+  "item.ores-renewed.vulkanit_pickaxe": "Vulkanit Pickaxe",
+  "item.ores-renewed.vulkanit_shovel": "Vulkanit Shovel",
+  "item.ores-renewed.vulkanit_axe": "Vulkanit Axe",
+  "item.ores-renewed.vulkanit_hoe": "Vulkanit Hoe",
+  "item.ores-renewed.vulkanit_spear": "Vulkanit Spear",
+
+  "item.ores-renewed.lead_pickaxe": "Lead Pickaxe",
+
+
   "item.ores-renewed.raw_uran": "Raw Uran",
   "item.ores-renewed.blackcristal": "Blackcristal",
   "item.ores-renewed.raw_killium": "Raw Killium",

@@ -6,7 +6,10 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShovelItem;
 
 import java.util.function.Function;
 
@@ -28,6 +31,16 @@ public class ModItems {
 
     public static final Item RUBY = registerItem("ruby", Item::new);
     public static final Item BLACKCRISTAL = registerItem("blackcristal", Item::new);
+
+    public static final Item VULKANIT_SWORT = registerItem("vulkanit_sword", properties -> new Item(properties.sword(ModToolMaterials.VULKANIT, 3, -2.4f)));
+    public static final Item VULKANIT_PICKAXE = registerItem("vulkanit_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.VULKANIT, 1, -2.8f)));
+    public static final Item VULKANIT_SHOVEL = registerItem("vulkanit_shovel", properties -> new ShovelItem(ModToolMaterials.VULKANIT, 1.5f, -3f,properties));
+    public static final Item VULKANIT_AXE = registerItem("vulkanit_axe", properties -> new AxeItem(ModToolMaterials.VULKANIT, 6f, -3.2f,properties));
+    public static final Item VULKANIT_HOE = registerItem("vulkanit_hoe", properties -> new HoeItem(ModToolMaterials.VULKANIT, 0f, -3f,properties));
+    public static final Item VULKANIT_SPEAR = registerItem("vulkanit_spear", properties -> new Item(properties.spear(ModToolMaterials.VULKANIT, 1.05F, 1.075F, 0.5F, 3.0F, 10.0F, 6.5F, 5.1F, 10.0F, 4.6F)));
+
+    public static final Item LEAD_PICKAXE = registerItem("lead_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.VULKANIT, 1, -2.8f)));
+
 
 
     public static ResourceKey<Item> getRK(Item item){

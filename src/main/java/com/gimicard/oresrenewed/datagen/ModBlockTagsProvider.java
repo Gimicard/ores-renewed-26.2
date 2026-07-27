@@ -1,6 +1,7 @@
 package com.gimicard.oresrenewed.datagen;
 
 import com.gimicard.oresrenewed.block.ModBlocks;
+import com.gimicard.oresrenewed.tags.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
 import net.minecraft.core.HolderLookup;
@@ -74,5 +75,21 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
                 .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_KILLIUM))
                 .add(ModBlocks.getRK(ModBlocks.BLOCK_OF_LEAD));
+
+        tag(ModTags.Blocks.NEEDS_LEAD_TOOL)
+                .add(ModBlocks.getRK(ModBlocks.URAN_ORE_BLOCK))
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK))
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_LEAD_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .add(ModBlocks.getRK(ModBlocks.URAN_ORE_BLOCK))
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK));
+
+        tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .add(ModBlocks.getRK(ModBlocks.URAN_ORE_BLOCK))
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK));
     }
 }

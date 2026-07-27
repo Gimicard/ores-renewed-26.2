@@ -14,12 +14,12 @@ public class OresRenewedDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
-		pack.addProvider(ModBlockTagsProvider::new);
+		var blockTagProvider = pack.addProvider(ModBlockTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModWorldGenerator::new);
+		pack.addProvider((output, registriesFuture) -> new ModItemTagsProvider(output, registriesFuture, blockTagProvider));
 	}
-
 	@Override
 	public void buildRegistry(RegistrySetBuilder registryBuilder) {
 		registryBuilder.add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::bootstrap);
