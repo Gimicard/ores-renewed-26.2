@@ -8,6 +8,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.CookingBookCategory;
 import net.minecraft.world.level.ItemLike;
 
@@ -57,6 +58,23 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.TITAN_INGOT ,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLOCK_OF_TITAN);
                 nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.URAN_INGOT ,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLOCK_OF_URAN);
                 nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.VULKANIT_INGOT ,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLOCK_OF_VULKANIT);
+
+
+                shaped(RecipeCategory.TOOLS, ModItems.LEAD_PICKAXE)
+                        .pattern("LLL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.LEAD_INGOT)
+                        .unlockedBy(getHasName(ModItems.LEAD_INGOT), has(ModItems.LEAD_INGOT))
+                        .group("lead")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                /*shapeless(RecipeCategory.MISC, ModItems.LEAD_PICKAXE, 9)
+                        .requires(ModItems.LEAD_INGOT)
+                        .group("lead")
+                        .unlockedBy(getHasName(ModItems.LEAD_INGOT), has(ModItems.LEAD_INGOT))
+                        .save(output, "anderes rezept");*/
 
 
             }

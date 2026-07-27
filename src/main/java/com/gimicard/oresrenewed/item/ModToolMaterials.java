@@ -8,5 +8,5 @@ public class ModToolMaterials {
             200, 5f, 2.0f,12, ModTags.Items.LEAD_REPAIR);
 
     public  static final ToolMaterial VULKANIT = new ToolMaterial(ModTags.Blocks.INCORRECT_FOR_VULKANIT_TOOL,
-            200, 5f, 2.0f,12, ModTags.Items.LEAD_REPAIR);
+            2500, 5f, 10.0f,12, ModTags.Items.LEAD_REPAIR);
 }
