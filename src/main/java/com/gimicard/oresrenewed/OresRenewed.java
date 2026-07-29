@@ -1,6 +1,7 @@
 package com.gimicard.oresrenewed;
 
 import com.gimicard.oresrenewed.effect.ModEffect;
+import com.gimicard.oresrenewed.item.ModItemMagnet;
 import com.gimicard.oresrenewed.item.ModItems;
 import com.gimicard.oresrenewed.block.ModBlocks;
 import com.gimicard.oresrenewed.creativemodetab.ModCreativeModeTabs;
@@ -31,6 +32,7 @@ public class OresRenewed implements ModInitializer {
 		ModEffect.registerEffects();
 		ModPotions.registerPotions();
 		ModPotionRecipes.registerPotionRecipes();
+		ModItemMagnet.register();
 
 	}
 

@@ -46,7 +46,23 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VULKANIT_HOE);
                         output.accept(ModItems.VULKANIT_SPEAR);
 
+                        output.accept(ModItems.TITAN_SWORT);
+                        output.accept(ModItems.TITAN_PICKAXE);
+                        output.accept(ModItems.TITAN_SHOVEL);
+                        output.accept(ModItems.TITAN_AXE);
+                        output.accept(ModItems.TITAN_HOE);
+                        output.accept(ModItems.TITAN_SPEAR);
+
+                        output.accept(ModItems.RUBY_SWORT);
+                        output.accept(ModItems.RUBY_PICKAXE);
+                        output.accept(ModItems.RUBY_SHOVEL);
+                        output.accept(ModItems.RUBY_AXE);
+                        output.accept(ModItems.RUBY_HOE);
+                        output.accept(ModItems.RUBY_SPEAR);
+
                         output.accept(ModItems.LEAD_PICKAXE);
+                        output.accept(ModItems.MAGNETIT_PICKAXE);
+                        output.accept(ModItems.KILLIUM_SWORT);
 
                         output.accept(ModBlocks.TITAN_ORE_BLOCK);
                         output.accept(ModBlocks.BLACKCRISTAL_ORE_BLOCK);

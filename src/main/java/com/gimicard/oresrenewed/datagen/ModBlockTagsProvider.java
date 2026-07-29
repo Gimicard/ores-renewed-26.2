@@ -91,5 +91,26 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
         tag(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
                 .add(ModBlocks.getRK(ModBlocks.URAN_ORE_BLOCK))
                 .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK));
+
+        tag(ModTags.Blocks.NEEDS_TITAN_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_TITAN_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_RUBY_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL)
+                .add(ModBlocks.getRK(ModBlocks.URAN_ORE_BLOCK))
+                .add(ModBlocks.getRK(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK));
+
+        tag(ModTags.Blocks.NEEDS_MAGNETIT_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_MAGNETIT_TOOL)
+                .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+        
+        
     }
 }

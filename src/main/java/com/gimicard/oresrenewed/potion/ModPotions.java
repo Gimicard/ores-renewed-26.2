@@ -10,8 +10,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.item.alchemy.Potion;
 
-import java.util.logging.Logger;
-
 public class ModPotions {
 
     public static final Holder<Potion> IRRADIANT_POTION =registerPotion("irradiant_potion",
