@@ -70,6 +70,114 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('S', Items.STICK)
                         .save(output);
 
+                shaped(RecipeCategory.TOOLS, ModItems.MAGNETIT_PICKAXE)
+                        .pattern("LLL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.MAGNETIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.MAGNETIT_INGOT), has(ModItems.MAGNETIT_INGOT))
+                        .group("lead")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+
+
+                shaped(RecipeCategory.TOOLS, ModItems.VULKANIT_PICKAXE)
+                        .pattern("LLL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.VULKANIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.VULKANIT_INGOT), has(ModItems.VULKANIT_INGOT))
+                        .group("vulkanit")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.TITAN_PICKAXE)
+                        .pattern("LLL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.TITAN_INGOT)
+                        .unlockedBy(getHasName(ModItems.TITAN_INGOT), has(ModItems.TITAN_INGOT))
+                        .group("titan")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.COMBAT, ModItems.KILLIUM_SWORT)
+                        .pattern(" L ")
+                        .pattern(" L ")
+                        .pattern(" S ")
+                        .define('L', ModItems.KILLIUM_INGOT)
+                        .unlockedBy(getHasName(ModItems.KILLIUM_INGOT), has(ModItems.KILLIUM_INGOT))
+                        .group("killium")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                //-----ruby------
+
+                shaped(RecipeCategory.COMBAT, ModItems.RUBY_SWORT)
+                        .pattern(" L ")
+                        .pattern(" L ")
+                        .pattern(" S ")
+                        .define('L', ModItems.RUBY)
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.RUBY_PICKAXE)
+                        .pattern("LLL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.RUBY)
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("lead")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+
+                shaped(RecipeCategory.TOOLS, ModItems.RUBY_SHOVEL)
+                        .pattern(" L ")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.RUBY)
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.RUBY_AXE)
+                        .pattern(" LL")
+                        .pattern(" SL")
+                        .pattern(" S ")
+                        .define('L', ModItems.RUBY)
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.RUBY_HOE)
+                        .pattern(" LL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.RUBY)
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.RUBY_SPEAR)
+                        .pattern("  L")
+                        .pattern(" S ")
+                        .pattern("S  ")
+                        .define('L', ModItems.RUBY)
+                        .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
+                        .group("ruby")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+
+
+
                 /*shapeless(RecipeCategory.MISC, ModItems.LEAD_PICKAXE, 9)
                         .requires(ModItems.LEAD_INGOT)
                         .group("lead")
