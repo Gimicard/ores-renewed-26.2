@@ -23,8 +23,8 @@ public class ModKilliumSwordOffhand {
             for (ServerPlayer player : server.getPlayerList().getPlayers()) {
                 UUID id = player.getUUID();
 
-                boolean hasKilliumSwordInOffhand =player.getMainHandItem().is(ModItems.KILLIUM_SWORT) ||
-                        player.getOffhandItem().is(ModItems.KILLIUM_SWORT);
+                boolean hasKilliumSwordInOffhand =player.getMainHandItem().is(ModItems.KILLIUM_SWORD) ||
+                        player.getOffhandItem().is(ModItems.KILLIUM_SWORD);
 
                 if (hasKilliumSwordInOffhand) {
                     int ticks = offhandTicks.merge(id, 1, Integer::sum);

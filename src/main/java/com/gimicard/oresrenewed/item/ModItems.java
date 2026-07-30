@@ -16,6 +16,9 @@ import java.util.function.Function;
 
 public class ModItems {
 
+    public static final Item MAGNET = registerItem("magnet", Item::new);
+    public static final Item URAN_FUEL_ROD = registerItem("uran_fuel_rod", Item::new);
+
     public static final Item RAW_URAN = registerItem("raw_uran", Item::new);
     public static final Item RAW_TITAN = registerItem("raw_titan", Item::new);
     public static final Item RAW_VULKANIT = registerItem("raw_vulkanit", Item::new);
@@ -42,14 +45,14 @@ public class ModItems {
 
     public static final Item LEAD_PICKAXE = registerItem("lead_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.LEAD, 1, -2.8f)));
 
-    public static final Item TITAN_SWORT = registerItem("titan_sword", properties -> new Item(properties.sword(ModToolMaterials.TITAN, 3.0F, -2.9F)));
+    public static final Item TITAN_SWORD = registerItem("titan_sword", properties -> new Item(properties.sword(ModToolMaterials.TITAN, 3.0F, -2.9F)));
     public static final Item TITAN_PICKAXE = registerItem("titan_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.TITAN, 1, -2.9f)));
     public static final Item TITAN_SHOVEL = registerItem("titan_shovel", properties -> new ShovelItem(ModToolMaterials.TITAN, 1.5f, -3f,properties));
     public static final Item TITAN_AXE = registerItem("titan_axe", properties -> new AxeItem(ModToolMaterials.TITAN, 6f, -3.2f,properties));
     public static final Item TITAN_HOE = registerItem("titan_hoe", properties -> new HoeItem(ModToolMaterials.TITAN, 0f, -3f,properties));
     public static final Item TITAN_SPEAR = registerItem("titan_spear", properties -> new Item(properties.spear(ModToolMaterials.TITAN, 0.95F, 0.95F, 0.6F, 2.5F, 11.0F, 6.75F, 5.1F, 11.25F, 4.6F)));
 
-    public static final Item RUBY_SWORT = registerItem("ruby_sword", properties -> new Item(properties.sword(ModToolMaterials.RUBY, 3.0F, -2.4F)));
+    public static final Item RUBY_SWORD = registerItem("ruby_sword", properties -> new Item(properties.sword(ModToolMaterials.RUBY, 3.0F, -2.4F)));
     public static final Item RUBY_PICKAXE = registerItem("ruby_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.RUBY, 1.0F, -2.8F)));
     public static final Item RUBY_SHOVEL = registerItem("ruby_shovel", properties -> new ShovelItem(ModToolMaterials.RUBY, 1.5F, -3.0F,properties));
     public static final Item RUBY_AXE = registerItem("ruby_axe", properties -> new AxeItem(ModToolMaterials.RUBY, 6.0F, -3.0F,properties));
@@ -58,7 +61,7 @@ public class ModItems {
 
     public static final Item MAGNETIT_PICKAXE = registerItem("magnetit_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.MAGNETIT, 1, -2.8f)));
 
-    public static final Item KILLIUM_SWORT = registerItem("killium_sword", properties -> new Item(properties.sword(ModToolMaterials.KILLIUM, 10.0F, -2.4F)));
+    public static final Item KILLIUM_SWORD = registerItem("killium_sword", properties -> new Item(properties.sword(ModToolMaterials.KILLIUM, 10.0F, -2.4F)));
     
 
 

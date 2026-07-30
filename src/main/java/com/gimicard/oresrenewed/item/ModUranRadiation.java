@@ -21,6 +21,7 @@ public class ModUranRadiation {
     private static final Set<Item> URAN_ITEMS = Set.of(
             ModItems.RAW_URAN,
             ModItems.URAN_INGOT,
+            ModItems.URAN_FUEL_ROD,
             ModBlocks.URAN_ORE_BLOCK.asItem(),
             ModBlocks.DEEPSLATE_URAN_ORE_BLOCK.asItem(),
             ModBlocks.BLOCK_OF_URAN.asItem()

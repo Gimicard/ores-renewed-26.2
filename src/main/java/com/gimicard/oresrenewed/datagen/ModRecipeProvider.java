@@ -59,6 +59,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.URAN_INGOT ,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLOCK_OF_URAN);
                 nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.VULKANIT_INGOT ,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLOCK_OF_VULKANIT);
 
+                shaped(RecipeCategory.TOOLS, ModItems.MAGNET) //einzeln
+                        .pattern("M M")
+                        .pattern(" I ")
+                        .pattern("   ")
+                        .define('M', ModItems.MAGNETIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.MAGNETIT_INGOT), has(ModItems.MAGNETIT_INGOT))
+                        .group("magnet")
+                        .define('I', Items.IRON_INGOT)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.URAN_FUEL_ROD) //einzeln
+                        .pattern("U  ")
+                        .pattern(" U ")
+                        .pattern("  U")
+                        .define('U', ModItems.URAN_INGOT)
+                        .unlockedBy(getHasName(ModItems.URAN_INGOT), has(ModItems.URAN_INGOT))
+                        .group("uran")
+                        .save(output);
+
 
                 shaped(RecipeCategory.TOOLS, ModItems.LEAD_PICKAXE) //einzeln
                         .pattern("LLL")
@@ -83,7 +102,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-                shaped(RecipeCategory.COMBAT, ModItems.KILLIUM_SWORT) //einzeln
+                shaped(RecipeCategory.COMBAT, ModItems.KILLIUM_SWORD) //einzeln
                         .pattern(" L ")
                         .pattern(" L ")
                         .pattern(" S ")
@@ -95,7 +114,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 //-----ruby------
 
-                shaped(RecipeCategory.COMBAT, ModItems.RUBY_SWORT)
+                shaped(RecipeCategory.COMBAT, ModItems.RUBY_SWORD)
                         .pattern(" L ")
                         .pattern(" L ")
                         .pattern(" S ")
@@ -158,7 +177,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 //-----titan------
 
-                shaped(RecipeCategory.COMBAT, ModItems.TITAN_SWORT)
+                shaped(RecipeCategory.COMBAT, ModItems.TITAN_SWORD)
                         .pattern(" L ")
                         .pattern(" L ")
                         .pattern(" S ")

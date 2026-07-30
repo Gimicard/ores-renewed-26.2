@@ -24,6 +24,9 @@ public class ModCreativeModeTabs {
                     //.backgroundTexture(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "textures/item/fluorite.png"))         custon background
                     .title(Component.translatable("creativemodetab.oresrenewed.Ores"))
                     .displayItems((parameters, output) -> {
+                        output.accept(ModItems.MAGNET);
+                        output.accept(ModItems.URAN_FUEL_ROD);
+
                         output.accept(ModItems.RAW_URAN);
                         output.accept(ModItems.RAW_TITAN);
                         output.accept(ModItems.RAW_VULKANIT);
@@ -46,14 +49,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VULKANIT_HOE);
                         output.accept(ModItems.VULKANIT_SPEAR);
 
-                        output.accept(ModItems.TITAN_SWORT);
+                        output.accept(ModItems.TITAN_SWORD);
                         output.accept(ModItems.TITAN_PICKAXE);
                         output.accept(ModItems.TITAN_SHOVEL);
                         output.accept(ModItems.TITAN_AXE);
                         output.accept(ModItems.TITAN_HOE);
                         output.accept(ModItems.TITAN_SPEAR);
 
-                        output.accept(ModItems.RUBY_SWORT);
+                        output.accept(ModItems.RUBY_SWORD);
                         output.accept(ModItems.RUBY_PICKAXE);
                         output.accept(ModItems.RUBY_SHOVEL);
                         output.accept(ModItems.RUBY_AXE);
@@ -62,7 +65,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.LEAD_PICKAXE);
                         output.accept(ModItems.MAGNETIT_PICKAXE);
-                        output.accept(ModItems.KILLIUM_SWORT);
+                        output.accept(ModItems.KILLIUM_SWORD);
 
                         output.accept(ModBlocks.TITAN_ORE_BLOCK);
                         output.accept(ModBlocks.BLACKCRISTAL_ORE_BLOCK);

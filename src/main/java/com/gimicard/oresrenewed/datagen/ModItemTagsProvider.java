@@ -25,14 +25,14 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
         tag(ItemTags.HOES).add(ModItems.getRK(ModItems.VULKANIT_HOE));
         tag(ItemTags.SPEARS).add(ModItems.getRK(ModItems.VULKANIT_SPEAR));
 
-        tag(ItemTags.SWORDS).add(ModItems.getRK(ModItems.TITAN_SWORT));
+        tag(ItemTags.SWORDS).add(ModItems.getRK(ModItems.TITAN_SWORD));
         tag(ItemTags.PICKAXES).add(ModItems.getRK(ModItems.TITAN_PICKAXE));
         tag(ItemTags.SHOVELS).add(ModItems.getRK(ModItems.TITAN_SHOVEL));
         tag(ItemTags.AXES).add(ModItems.getRK(ModItems.TITAN_AXE));
         tag(ItemTags.HOES).add(ModItems.getRK(ModItems.TITAN_HOE));
         tag(ItemTags.SPEARS).add(ModItems.getRK(ModItems.TITAN_SPEAR));
 
-        tag(ItemTags.SWORDS).add(ModItems.getRK(ModItems.RUBY_SWORT));
+        tag(ItemTags.SWORDS).add(ModItems.getRK(ModItems.RUBY_SWORD));
         tag(ItemTags.PICKAXES).add(ModItems.getRK(ModItems.RUBY_PICKAXE));
         tag(ItemTags.SHOVELS).add(ModItems.getRK(ModItems.RUBY_SHOVEL));
         tag(ItemTags.AXES).add(ModItems.getRK(ModItems.RUBY_AXE));

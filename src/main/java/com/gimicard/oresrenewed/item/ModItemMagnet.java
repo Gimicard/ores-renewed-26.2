@@ -18,7 +18,9 @@ public class ModItemMagnet {
             for (ServerPlayer player : server.getPlayerList().getPlayers()) {
 
                 boolean hasMagnetPickaxe = player.getMainHandItem().is(ModItems.MAGNETIT_PICKAXE)
-                        || player.getOffhandItem().is(ModItems.MAGNETIT_PICKAXE);
+                        ||player.getMainHandItem().is(ModItems.MAGNET)
+                        || player.getOffhandItem().is(ModItems.MAGNETIT_PICKAXE)
+                        || player.getOffhandItem().is(ModItems.MAGNET);
 
                 if (!hasMagnetPickaxe) {
                     continue;

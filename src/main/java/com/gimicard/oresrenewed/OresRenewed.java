@@ -5,6 +5,7 @@ import com.gimicard.oresrenewed.item.*;
 import com.gimicard.oresrenewed.block.ModBlocks;
 import com.gimicard.oresrenewed.creativemodetab.ModCreativeModeTabs;
 import com.gimicard.oresrenewed.potion.ModPotions;
+import com.gimicard.oresrenewed.registries.ModFuels;
 import com.gimicard.oresrenewed.registries.ModPotionRecipes;
 import com.gimicard.oresrenewed.worldgen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
@@ -31,6 +32,7 @@ public class OresRenewed implements ModInitializer {
 		ModPotionRecipes.registerPotionRecipes();
 		ModItemMagnet.register();
 		ModKilliumSwordOffhand.register();
+		ModFuels.registerFuels();
 
 	}
 
