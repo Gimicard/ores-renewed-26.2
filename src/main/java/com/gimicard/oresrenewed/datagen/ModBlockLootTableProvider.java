@@ -60,7 +60,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK, ModItems.RAW_VULKANIT));
     }
 
-    private LootTable.Builder createAutoSmeltOreDrop(Item rawDrop) {
+    /*private LootTable.Builder createAutoSmeltOreDrop(Item rawDrop) {
         return LootTable.lootTable().withPool(LootPool.lootPool()
                 .setRolls(ConstantValue.exactly(1))
                 .add(LootItem.lootTableItem(rawDrop)
@@ -71,7 +71,7 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
                         )
                 )
         );
-    }
+    }*/
 
 
     public LootTable.Builder createMultipleOreDrops(final Block block, Item item, float minDrops, float maxDrops){

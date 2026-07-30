@@ -221,7 +221,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 //-----vulkanit------
 
-                shaped(RecipeCategory.COMBAT, ModItems.VULKANIT_SWORT)
+                shaped(RecipeCategory.COMBAT, ModItems.VULKANIT_SWORD)
                         .pattern(" L ")
                         .pattern(" L ")
                         .pattern(" S ")

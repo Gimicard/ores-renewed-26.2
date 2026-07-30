@@ -30,6 +30,7 @@ public class OresRenewed implements ModInitializer {
 		ModPotions.registerPotions();
 		ModPotionRecipes.registerPotionRecipes();
 		ModItemMagnet.register();
+		ModKilliumSwordOffhand.register();
 
 	}
 

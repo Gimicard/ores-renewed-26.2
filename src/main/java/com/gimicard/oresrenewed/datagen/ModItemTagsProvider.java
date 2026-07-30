@@ -18,7 +18,7 @@ public class ModItemTagsProvider extends FabricTagsProvider.ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider registries) {
-        tag(ItemTags.SWORDS).add(ModItems.getRK(ModItems.VULKANIT_SWORT));
+        tag(ItemTags.SWORDS).add(ModItems.getRK(ModItems.VULKANIT_SWORD));
         tag(ItemTags.PICKAXES).add(ModItems.getRK(ModItems.VULKANIT_PICKAXE));
         tag(ItemTags.SHOVELS).add(ModItems.getRK(ModItems.VULKANIT_SHOVEL));
         tag(ItemTags.AXES).add(ModItems.getRK(ModItems.VULKANIT_AXE));

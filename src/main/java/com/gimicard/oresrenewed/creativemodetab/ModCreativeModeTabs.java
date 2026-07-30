@@ -39,7 +39,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY);
                         output.accept(ModItems.BLACKCRISTAL);
 
-                        output.accept(ModItems.VULKANIT_SWORT);
+                        output.accept(ModItems.VULKANIT_SWORD);
                         output.accept(ModItems.VULKANIT_PICKAXE);
                         output.accept(ModItems.VULKANIT_SHOVEL);
                         output.accept(ModItems.VULKANIT_AXE);

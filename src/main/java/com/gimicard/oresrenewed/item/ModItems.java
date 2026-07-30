@@ -33,7 +33,7 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", Item::new);
     public static final Item BLACKCRISTAL = registerItem("blackcristal", Item::new);
 
-    public static final Item VULKANIT_SWORT = registerItem("vulkanit_sword", properties -> new Item(properties.sword(ModToolMaterials.VULKANIT, 3, -2.4f)));
+    public static final Item VULKANIT_SWORD = registerItem("vulkanit_sword", properties -> new ModVulkanitFlame(properties.sword(ModToolMaterials.VULKANIT, 3, -2.4f)));
     public static final Item VULKANIT_PICKAXE = registerItem("vulkanit_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.VULKANIT, 1, -2.8f)));
     public static final Item VULKANIT_SHOVEL = registerItem("vulkanit_shovel", properties -> new ShovelItem(ModToolMaterials.VULKANIT, 1.5f, -3f,properties));
     public static final Item VULKANIT_AXE = registerItem("vulkanit_axe", properties -> new AxeItem(ModToolMaterials.VULKANIT, 6f, -3.2f,properties));

@@ -6,16 +6,16 @@ import net.minecraft.world.item.ItemStack;
 
 public class ModVulkanitFlame extends Item {
 
-    int fire_sec = 4;
+    int fire_sec = 5;
 
     public ModVulkanitFlame(Item.Properties properties) {
         super(properties);
     }
 
     @Override
-    public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+    public void hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         target.igniteForSeconds(fire_sec);
 
-        return super.hurtEnemy(stack, target, attacker);
+        super.hurtEnemy(stack, target, attacker);
     }
 }

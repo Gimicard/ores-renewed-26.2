@@ -66,7 +66,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.generateFlatItem(ModItems.RUBY, ModelTemplates.FLAT_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.BLACKCRISTAL, ModelTemplates.FLAT_ITEM);
 
-        itemModelGenerator.generateFlatItem(ModItems.VULKANIT_SWORT, ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.VULKANIT_SWORD, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.VULKANIT_AXE, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.VULKANIT_PICKAXE, ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModelGenerator.generateFlatItem(ModItems.VULKANIT_SHOVEL, ModelTemplates.FLAT_HANDHELD_ITEM);
