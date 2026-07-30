@@ -51,6 +51,7 @@ public class ModBlocks {
 
 
 
+
     public static final Block DEEPSLATE_URAN_ORE_BLOCK = registerBlock("deepslate_uran_ore_block",
             properties -> new Block(properties.strength(4F)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));

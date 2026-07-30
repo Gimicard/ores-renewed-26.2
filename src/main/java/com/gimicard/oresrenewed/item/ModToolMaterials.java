@@ -8,13 +8,13 @@ public class ModToolMaterials {
             200, 5f, 2.0f,12, ModTags.Items.LEAD_REPAIR);
 
     public  static final ToolMaterial VULKANIT = new ToolMaterial(ModTags.Blocks.INCORRECT_FOR_VULKANIT_TOOL,
-            2500, 2.5f, 2.0f,12, ModTags.Items.VULKANIT_REPAIR);
+            1000, 2.5f, 2.0f,5, ModTags.Items.VULKANIT_REPAIR);
 
     public  static final ToolMaterial TITAN = new ToolMaterial(ModTags.Blocks.INCORRECT_FOR_TITAN_TOOL,
             500, 10f, 2.0f,14, ModTags.Items.TITAN_REPAIR);
 
     public  static final ToolMaterial RUBY = new ToolMaterial(ModTags.Blocks.INCORRECT_FOR_RUBY_TOOL,
-            1000, 12.0F, 2.0F, 22, ModTags.Items.RUBY_REPAIR);
+            2500, 12.0F, 2.0F, 22, ModTags.Items.RUBY_REPAIR);
 
     public  static final ToolMaterial MAGNETIT = new ToolMaterial(ModTags.Blocks.INCORRECT_FOR_MAGNETIT_TOOL,
             700, 5.0F, 1.0F, 13, ModTags.Items.MAGNETIT_REPAIR);

@@ -110,6 +110,9 @@ public class ModBlockTagsProvider extends FabricTagsProvider.BlockTagsProvider {
 
         tag(ModTags.Blocks.INCORRECT_FOR_MAGNETIT_TOOL)
                 .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_VULKANIT_TOOL)
+            .addTag(BlockTags.NEEDS_DIAMOND_TOOL);
         
         
     }
