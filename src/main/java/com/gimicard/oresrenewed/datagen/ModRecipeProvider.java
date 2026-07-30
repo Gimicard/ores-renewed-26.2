@@ -60,7 +60,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 nineBlockStorageRecipes(RecipeCategory.MISC, ModItems.VULKANIT_INGOT ,RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLOCK_OF_VULKANIT);
 
 
-                shaped(RecipeCategory.TOOLS, ModItems.LEAD_PICKAXE)
+                shaped(RecipeCategory.TOOLS, ModItems.LEAD_PICKAXE) //einzeln
                         .pattern("LLL")
                         .pattern(" S ")
                         .pattern(" S ")
@@ -70,39 +70,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('S', Items.STICK)
                         .save(output);
 
-                shaped(RecipeCategory.TOOLS, ModItems.MAGNETIT_PICKAXE)
+                shaped(RecipeCategory.TOOLS, ModItems.MAGNETIT_PICKAXE) //einzeln
                         .pattern("LLL")
                         .pattern(" S ")
                         .pattern(" S ")
                         .define('L', ModItems.MAGNETIT_INGOT)
                         .unlockedBy(getHasName(ModItems.MAGNETIT_INGOT), has(ModItems.MAGNETIT_INGOT))
-                        .group("lead")
+                        .group("magnetit")
                         .define('S', Items.STICK)
                         .save(output);
 
 
 
-                shaped(RecipeCategory.TOOLS, ModItems.VULKANIT_PICKAXE)
-                        .pattern("LLL")
-                        .pattern(" S ")
-                        .pattern(" S ")
-                        .define('L', ModItems.VULKANIT_INGOT)
-                        .unlockedBy(getHasName(ModItems.VULKANIT_INGOT), has(ModItems.VULKANIT_INGOT))
-                        .group("vulkanit")
-                        .define('S', Items.STICK)
-                        .save(output);
 
-                shaped(RecipeCategory.TOOLS, ModItems.TITAN_PICKAXE)
-                        .pattern("LLL")
-                        .pattern(" S ")
-                        .pattern(" S ")
-                        .define('L', ModItems.TITAN_INGOT)
-                        .unlockedBy(getHasName(ModItems.TITAN_INGOT), has(ModItems.TITAN_INGOT))
-                        .group("titan")
-                        .define('S', Items.STICK)
-                        .save(output);
-
-                shaped(RecipeCategory.COMBAT, ModItems.KILLIUM_SWORT)
+                shaped(RecipeCategory.COMBAT, ModItems.KILLIUM_SWORT) //einzeln
                         .pattern(" L ")
                         .pattern(" L ")
                         .pattern(" S ")
@@ -130,7 +111,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern(" S ")
                         .define('L', ModItems.RUBY)
                         .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
-                        .group("lead")
+                        .group("ruby")
                         .define('S', Items.STICK)
                         .save(output);
 
@@ -172,6 +153,132 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('L', ModItems.RUBY)
                         .unlockedBy(getHasName(ModItems.RUBY), has(ModItems.RUBY))
                         .group("ruby")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                //-----titan------
+
+                shaped(RecipeCategory.COMBAT, ModItems.TITAN_SWORT)
+                        .pattern(" L ")
+                        .pattern(" L ")
+                        .pattern(" S ")
+                        .define('L', ModItems.TITAN_INGOT)
+                        .unlockedBy(getHasName(ModItems.TITAN_INGOT), has(ModItems.TITAN_INGOT))
+                        .group("titan")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.TITAN_PICKAXE)
+                        .pattern("LLL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.TITAN_INGOT)
+                        .unlockedBy(getHasName(ModItems.TITAN_INGOT), has(ModItems.TITAN_INGOT))
+                        .group("titan")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+
+                shaped(RecipeCategory.TOOLS, ModItems.TITAN_SHOVEL)
+                        .pattern(" L ")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.TITAN_INGOT)
+                        .unlockedBy(getHasName(ModItems.TITAN_INGOT), has(ModItems.TITAN_INGOT))
+                        .group("titan")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.TITAN_AXE)
+                        .pattern(" LL")
+                        .pattern(" SL")
+                        .pattern(" S ")
+                        .define('L', ModItems.TITAN_INGOT)
+                        .unlockedBy(getHasName(ModItems.TITAN_INGOT), has(ModItems.TITAN_INGOT))
+                        .group("titan")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.TITAN_HOE)
+                        .pattern(" LL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.TITAN_INGOT)
+                        .unlockedBy(getHasName(ModItems.TITAN_INGOT), has(ModItems.TITAN_INGOT))
+                        .group("titan")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.TITAN_SPEAR)
+                        .pattern("  L")
+                        .pattern(" S ")
+                        .pattern("S  ")
+                        .define('L', ModItems.TITAN_INGOT)
+                        .unlockedBy(getHasName(ModItems.TITAN_INGOT), has(ModItems.TITAN_INGOT))
+                        .group("titan")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                //-----vulkanit------
+
+                shaped(RecipeCategory.COMBAT, ModItems.VULKANIT_SWORT)
+                        .pattern(" L ")
+                        .pattern(" L ")
+                        .pattern(" S ")
+                        .define('L', ModItems.VULKANIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.VULKANIT_INGOT), has(ModItems.VULKANIT_INGOT))
+                        .group("vulkanit")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.VULKANIT_PICKAXE)
+                        .pattern("LLL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.VULKANIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.VULKANIT_INGOT), has(ModItems.VULKANIT_INGOT))
+                        .group("vulkanit")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+
+                shaped(RecipeCategory.TOOLS, ModItems.VULKANIT_SHOVEL)
+                        .pattern(" L ")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.VULKANIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.VULKANIT_INGOT), has(ModItems.VULKANIT_INGOT))
+                        .group("vulkanit")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.VULKANIT_AXE)
+                        .pattern(" LL")
+                        .pattern(" SL")
+                        .pattern(" S ")
+                        .define('L', ModItems.VULKANIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.VULKANIT_INGOT), has(ModItems.VULKANIT_INGOT))
+                        .group("vulkanit")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.VULKANIT_HOE)
+                        .pattern(" LL")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('L', ModItems.VULKANIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.VULKANIT_INGOT), has(ModItems.VULKANIT_INGOT))
+                        .group("vulkanit")
+                        .define('S', Items.STICK)
+                        .save(output);
+
+                shaped(RecipeCategory.TOOLS, ModItems.VULKANIT_SPEAR)
+                        .pattern("  L")
+                        .pattern(" S ")
+                        .pattern("S  ")
+                        .define('L', ModItems.VULKANIT_INGOT)
+                        .unlockedBy(getHasName(ModItems.VULKANIT_INGOT), has(ModItems.VULKANIT_INGOT))
+                        .group("vulkanit")
                         .define('S', Items.STICK)
                         .save(output);
 
