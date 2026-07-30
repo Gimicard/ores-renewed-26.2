@@ -4,16 +4,21 @@ import com.gimicard.oresrenewed.block.ModBlocks;
 import com.gimicard.oresrenewed.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootSubProvider;
+import net.minecraft.advancements.predicates.ItemPredicate;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.functions.SmeltItemFunction;
+import net.minecraft.world.level.storage.loot.predicates.MatchTool;
+import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
 import java.util.concurrent.CompletableFuture;
@@ -53,6 +58,19 @@ public class ModBlockLootTableProvider extends FabricBlockLootSubProvider {
         add(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_URAN_ORE_BLOCK, ModItems.RAW_URAN));
         add(ModBlocks.VULKANIT_ORE_BLOCK, createOreDrop(ModBlocks.VULKANIT_ORE_BLOCK, ModItems.RAW_VULKANIT));
         add(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK, createOreDrop(ModBlocks.DEEPSLATE_VULKANIT_ORE_BLOCK, ModItems.RAW_VULKANIT));
+    }
+
+    private LootTable.Builder createAutoSmeltOreDrop(Item rawDrop) {
+        return LootTable.lootTable().withPool(LootPool.lootPool()
+                .setRolls(ConstantValue.exactly(1))
+                .add(LootItem.lootTableItem(rawDrop)
+                        .apply(SmeltItemFunction.smelted()
+                                .when(MatchTool.toolMatches(
+                                        ItemPredicate.Builder.item().of(this.registries.lookupOrThrow(Registries.ITEM), ModItems.VULKANIT_PICKAXE)
+                                ))
+                        )
+                )
+        );
     }
 
 
