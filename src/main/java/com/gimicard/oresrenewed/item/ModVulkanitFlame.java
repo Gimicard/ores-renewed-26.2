@@ -14,7 +14,6 @@ public class ModVulkanitFlame extends Item {
 
     @Override
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        // Setzt das Ziel für 4 Sekunden in Brand
         target.igniteForSeconds(fire_sec);
 
         return super.hurtEnemy(stack, target, attacker);
