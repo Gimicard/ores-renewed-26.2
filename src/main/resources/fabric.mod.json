@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "ores-renewed",
+	"id": "ores_renewed",
 	"version": "${version}",
 	"name": "Ores Renewed",
 	"description": "Adds more Ores",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/ores-renewed/icon.png",
+	"icon": "assets/ores_renewed/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
