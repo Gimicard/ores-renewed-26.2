@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "ores-renewed",
+	"id": "ores_renewed",
 	"version": "${version}",
 	"name": "Ores Renewed",
 	"description": "Adds more Ores",
