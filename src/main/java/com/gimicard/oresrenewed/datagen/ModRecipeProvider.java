@@ -61,12 +61,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 shaped(RecipeCategory.TOOLS, ModItems.MAGNET) //einzeln
                         .pattern("M M")
-                        .pattern(" I ")
+                        .pattern(" T ")
                         .pattern("   ")
                         .define('M', ModItems.MAGNETIT_INGOT)
                         .unlockedBy(getHasName(ModItems.MAGNETIT_INGOT), has(ModItems.MAGNETIT_INGOT))
                         .group("magnet")
-                        .define('I', Items.IRON_INGOT)
+                        .define('T', ModItems.TITAN_INGOT)
                         .save(output);
 
                 shaped(RecipeCategory.TOOLS, ModItems.URAN_FUEL_ROD) //einzeln
